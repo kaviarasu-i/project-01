@@ -1,0 +1,35 @@
+    
+ ul {
+  list-style-type: none;
+  width:100%;
+  margin: 10px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgba(219, 56, 56, 0.89);
+  position: -webkit-sticky;
+  position: sticky;
+  top:0; 
+  width:100%;
+  }
+  
+  li {
+    float: left;
+    padding-left: 250px;
+    font-size:large;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(151, 29, 29);
+  }
+  
+  .active {
+    background-color:rgba(255, 109, 109, 0.799);
+  }

@@ -1,0 +1,66 @@
+.contact
+{
+    display:flex;
+}
+*{
+  font-family: Times;
+    } 
+
+form{
+    margin:20px 50px;
+    width:400px;
+    height: fit-content;    
+}
+fieldset{
+    background-color: rgba(229, 169, 169, 0.351);
+    width: 400px;
+}
+input,textarea{
+    margin-left: 80px;
+    padding: 5px 30px 10px;
+    margin-top: 25px;
+}
+#submit
+{
+    margin-top: 30px;
+}
+#ad,#ph,#ml{
+    padding:35px 40px;
+    margin:35px 30px;
+    width:300px;
+    height:100px;
+    background-color: rgba(229, 169, 169, 0.351);
+    text-align: center;
+}
+img{
+    width: 30px;
+    height:30px;
+}
+p{
+    margin-top: 10px;
+}
+h3{
+    margin: 5px;
+}
+#loc img{
+    margin-top: 180px;
+    margin-left: 30px;
+    width: 500px;
+    height: 300px;
+}
+footer
+{
+  margin-top: 0;
+    background-color:rgb(217, 62, 62);
+    
+}
+ h6{
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+ }
+ legend{
+    font-weight: 900;
+    color:darkred;
+ }
